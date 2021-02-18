@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7c70e46-85d5-4bbf-b41e-4288a8b37c9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/configuration/MailConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/configuration/MvcConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/controller/MainController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/controller/RegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/reposit/UserReposit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/service/MailSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/diplom/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/diplom/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/diplom/model/User.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +67,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -126,8 +131,16 @@
       <option name="presentableId" value="Default" />
       <updated>1613552231834</updated>
       <workItem from="1613552236638" duration="3002000" />
-      <workItem from="1613560274343" duration="5768000" />
+      <workItem from="1613560274343" duration="7879000" />
     </task>
+    <task id="LOCAL-00001" summary="input">
+      <created>1613639095660</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613639095660</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +156,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="input" />
+    <option name="LAST_COMMIT_MESSAGE" value="input" />
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>
