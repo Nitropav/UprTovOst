@@ -11,7 +11,7 @@
         <#if name == "unknown">
             <a href="/login"> Войти </a>
         <#else>
-            <#if !isWorker && !isAdmin>
+            <#if !isAdmin>
                 <div class="nav-item mr-4">
                     <form method="get" action="/carlist">
                         <input type="hidden" name="id" value="${id}">
