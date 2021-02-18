@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7c70e46-85d5-4bbf-b41e-4288a8b37c9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/controller/RegisterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/reposit/UserReposit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/service/MailSender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/main.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1ae8e51e-1b7f-4e98-acc9-0b68192b844c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1ae8e51e-1b7f-4e98-acc9-0b68192b844c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_6_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/diplom/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/diplom/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/TroshkoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/TroshkoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/reposit/UserReposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/reposit/UserReposit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/diplom/TroshkoApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/diplom/TroshkoApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/troshko.iml" beforeDir="false" afterPath="$PROJECT_DIR$/troshko.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,6 +99,11 @@
     <property name="last_opened_file_path" value="D:/user/sitairis6-master" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Asus\Downloads\troshko\src\main\resources\templates" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -131,7 +138,7 @@
       <option name="presentableId" value="Default" />
       <updated>1613552231834</updated>
       <workItem from="1613552236638" duration="3002000" />
-      <workItem from="1613560274343" duration="7879000" />
+      <workItem from="1613560274343" duration="10063000" />
     </task>
     <task id="LOCAL-00001" summary="input">
       <created>1613639095660</created>
@@ -140,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613639095660</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="input">
+      <created>1613641089797</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613641089797</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
