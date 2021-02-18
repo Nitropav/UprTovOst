@@ -17,7 +17,7 @@ public class User implements UserDetails {
 
     private String username;
     private String LNAME;
-    private String login;
+    private String FNAME;
     private String password;
     private String email;
     private boolean active;
@@ -57,12 +57,12 @@ public class User implements UserDetails {
         this.LNAME = LNAME;
     }
 
-    public String getLogin() {
-        return login;
+    public String getFNAME() {
+        return FNAME;
     }
 
-    public void setLogin(String login) {
-        this.login = login;
+    public void setFNAME(String FNAME) {
+        this.FNAME = FNAME;
     }
 
     public String getPassword() {
