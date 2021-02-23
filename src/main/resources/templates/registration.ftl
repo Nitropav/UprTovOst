@@ -31,14 +31,14 @@
                                    name="password">
                         </div>
                         <div class="form-group">
-                            <label for="fio">ФИО</label>
-                            <input type="text" class="form-control" id="fio" placeholder="ФИО"
-                                   name="fio">
+                            <label for="FNAME">Имя</label>
+                            <input type="text" class="form-control" id="FNAME" placeholder="Имя"
+                                   name="FNAME">
                         </div>
                         <div class="form-group">
-                            <label for="phone">Номер телефона</label>
-                            <input type="text" class="form-control" id="phone" placeholder="+375 XX XXX XX XX"
-                                   name="phone">
+                            <label for="LNAME">Фамилия</label>
+                            <input type="text" class="form-control" id="LNAME" placeholder="Фамилия"
+                                   name="LNAME">
                         </div>
                         <div class="form-group">
                             <label for="email">Email</label>

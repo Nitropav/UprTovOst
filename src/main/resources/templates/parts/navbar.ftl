@@ -8,6 +8,13 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <#if isAdmin>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/createuser">Создать пользователя</a>
+                    </li>
+                </#if>
+            </ul>
         <#if name == "unknown">
             <a href="/login"> Войти </a>
         <#else>
