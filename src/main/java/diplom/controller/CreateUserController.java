@@ -27,17 +27,4 @@ public class CreateUserController {
 
         return "createuser";
     }
-
-    @PostMapping
-    public String addMaster(@RequestParam String fIO, @RequestParam String date_of_birth, @RequestParam int category,
-                            @RequestParam int profile, @RequestParam String year_start_working, Map<String, Object> model) {
-        Master master = new Master(fIO, date_of_birth, category, profile, year_start_working);
-
-        masterService.saveMasters(master);
-
-        Iterable<Master> masters = masterService.loadAllMasters();
-        model.put("masters", masters);
-
-        return "master";
-    }
 }

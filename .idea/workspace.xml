@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7c70e46-85d5-4bbf-b41e-4288a8b37c9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/controller/CreateUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/reposit/CreateUserReposit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/service/CreateUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/createuser.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/security.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/security.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/security.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/security.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/troshko.iml" beforeDir="false" afterPath="$PROJECT_DIR$/troshko.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/controller/CreateUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/controller/CreateUserController.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +94,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/probi/sitairis6-master" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
@@ -149,6 +138,8 @@
       <workItem from="1613552236638" duration="3002000" />
       <workItem from="1613560274343" duration="17678000" />
       <workItem from="1614096283908" duration="4293000" />
+      <workItem from="1614114848233" duration="79000" />
+      <workItem from="1614115347312" duration="347000" />
     </task>
     <task id="LOCAL-00001" summary="input">
       <created>1613639095660</created>
@@ -192,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613677381345</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="input">
+      <created>1614114894153</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1614114894154</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
