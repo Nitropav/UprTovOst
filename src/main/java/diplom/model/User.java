@@ -13,7 +13,7 @@ public class User implements UserDetails {
     @Id
     @Column(name = "id")
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
+    private Long id;
 
     private String username;
     private String LNAME;
@@ -27,7 +27,7 @@ public class User implements UserDetails {
     @Enumerated(EnumType.STRING)
     private Set<Role> roles;
 
-    public User() {}
+    public User(){}
 
     public User(String username, String LNAME, String FNAME, String password, String email, boolean active, Set<Role> roles) {
         this.username = username;
@@ -39,9 +39,9 @@ public class User implements UserDetails {
         this.roles = roles;
     }
 
-    public int getId() { return id; }
+    public Long getId() { return id; }
 
-    public void setId(int id) { this.id = id; }
+    public void setId(Long id) { this.id = id; }
 
     public void setUsername(String username) { this.username = username; }
 

@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.util.List;
+
 @Service
 public class CreateUserService {
     @Autowired
@@ -13,6 +15,11 @@ public class CreateUserService {
     @Transactional
     public Iterable<User> loadAllUsers(){
         return createUserReposit.findAll();
+    }
+
+    @Transactional
+    public List<User>loadUserByLogin(String login){
+        return createUserReposit.findByUsername(login);
     }
 
     @Transactional
