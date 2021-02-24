@@ -11,7 +11,7 @@
             <ul class="navbar-nav mr-auto">
                 <#if isAdmin>
                     <li class="nav-item">
-                        <a class="nav-link" href="/master">Создать пользователя</a>
+                        <a class="nav-link" href="/createuser">Создать пользователя</a>
                     </li>
                 </#if>
             </ul>
