@@ -4,12 +4,14 @@
 <div>
     <form method="post">
         <input type="hidden" name="_csrf" value="${_csrf.token}">
-        <h3 style="color: #1e90ff">Добаление мастера</h3>
-        <input type="text" name="fIO" placeholder="ФИО">
-        <input type="date" name="date_of_birth" placeholder="Дата рождения">
-        <input type="number" name="category" placeholder="Категория">
-        <input type="number" name="profile" placeholder="Профиль">
-        <input type="text" maxlength="4" name="year_start_working" placeholder="Год приема на работу">
+        <h3 style="color: #1e90ff">Добаление пользователя</h3>
+        <input type="text" name="username" placeholder="Логин">
+        <input type="text" name="LNAME" placeholder="Фамилия">
+        <input type="text" name="FNAME" placeholder="Имя">
+        <input type="password" name="password" placeholder="Пароль">
+        <input type="email" name="email" placeholder="example@gmail.com">
+        <input type="checkbox" name="active" placeholder="Активность">
+        <input type="text" name="roles" placeholder="Роль">
         <button class="btn btn-outline-primary" type="submit">Добавить</button>
     </form>
 </div>
