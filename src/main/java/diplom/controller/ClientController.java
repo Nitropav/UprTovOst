@@ -63,7 +63,7 @@ public class ClientController {
     }
 
     @GetMapping("/{client}")
-    public String editUser(@PathVariable Client client, Model model) {
+    public String editClient(@PathVariable Client client, Model model) {
         model.addAttribute("client", client);
         return "editClient";
     }
