@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7c70e46-85d5-4bbf-b41e-4288a8b37c9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/blockUser.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/editUser.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/controller/BlockUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/userInfForBlock.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/diplom/controller/CreateUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/controller/CreateUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/reposit/CreateUserReposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/reposit/CreateUserReposit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/service/CreateUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/service/CreateUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blockUser.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blockUser.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/createuser.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/createuser.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/diplom/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/diplom/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +57,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -141,7 +139,8 @@
       <workItem from="1614148252920" duration="4013000" />
       <workItem from="1614155478567" duration="1080000" />
       <workItem from="1614157580009" duration="3603000" />
-      <workItem from="1614186153615" duration="4371000" />
+      <workItem from="1614186153615" duration="4684000" />
+      <workItem from="1614251841545" duration="1207000" />
     </task>
     <task id="LOCAL-00001" summary="input">
       <created>1613639095660</created>
@@ -213,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614168991197</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="input">
+      <created>1614191237833</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1614191237833</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

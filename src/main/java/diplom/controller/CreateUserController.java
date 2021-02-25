@@ -86,17 +86,6 @@ public class CreateUserController {
 
         return "redirect:/createuser";
     }
-//    @GetMapping("/{user}")
-//    public String blockUser(@PathVariable User user, Model model) {
-//        model.addAttribute("user", user);
-//        return "blockUser";
-//    }
-    @PostMapping("/block")
-    public String block(@RequestParam boolean active, @RequestParam("id") User user){
-        user.setActive(active);
 
-        createUserService.saveUsers(user);
 
-        return "redirect:/createuser";
-    }
 }

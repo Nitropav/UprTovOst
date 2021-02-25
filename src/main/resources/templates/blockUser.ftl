@@ -2,7 +2,7 @@
 
 <@c.page "none">
     <div>
-        <form method="post" action="/createuser/block">
+        <form method="post" action="/blockuser/block">
             <h3 style="color: #1e90ff">Блокировка пользователя</h3>
             <table  style="margin-top: 20px">
                 <thead align="center">

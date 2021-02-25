@@ -13,6 +13,9 @@
                     <li class="nav-item">
                         <a class="nav-link" href="/createuser">Создать пользователя</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/blockuser">Блокировка пользователей</a>
+                    </li>
                 </#if>
             </ul>
         <#if name == "unknown">
