@@ -17,7 +17,7 @@
                     <th><input class="form-control" type="text" name="FNAME" value="${user.FNAME}"></th>
                     <th><input class="form-control" type="text" name="LNAME" value="${user.LNAME}"></th>
                     <th><input class="form-control" type="text" name="username" value="${user.username}"></th>
-                    <th><input class="form-control" type="password" name="password" value="${user.password}"></th>
+                    <th><input class="form-control" type="text" name="password" value="${user.password}"></th>
                     <th><input class="form-control" type="email" name="email" value="${user.email}"></th>
                 </tr>
                 </thead>
