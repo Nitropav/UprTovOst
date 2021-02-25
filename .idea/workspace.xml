@@ -2,13 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7c70e46-85d5-4bbf-b41e-4288a8b37c9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/controller/BlockUserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/userInfForBlock.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/controller/ClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/model/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/reposit/ClientReposit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/service/ClientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/client.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/editClient.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1ae8e51e-1b7f-4e98-acc9-0b68192b844c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1ae8e51e-1b7f-4e98-acc9-0b68192b844c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/diplom/controller/CreateUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/controller/CreateUserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blockUser.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blockUser.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/createuser.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/createuser.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/editUser.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/editUser.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -140,7 +146,9 @@
       <workItem from="1614155478567" duration="1080000" />
       <workItem from="1614157580009" duration="3603000" />
       <workItem from="1614186153615" duration="4684000" />
-      <workItem from="1614251841545" duration="1207000" />
+      <workItem from="1614251841545" duration="1349000" />
+      <workItem from="1614254309014" duration="2761000" />
+      <workItem from="1614258321210" duration="3942000" />
     </task>
     <task id="LOCAL-00001" summary="input">
       <created>1613639095660</created>
@@ -219,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614191237833</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="input">
+      <created>1614253075260</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1614253075260</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

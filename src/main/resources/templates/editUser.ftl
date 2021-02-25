@@ -3,7 +3,7 @@
 <@c.page "none">
     <div>
         <form method="post" action="/createuser/show">
-            <h3 style="color: #1e90ff">Редактирование мастера</h3>
+            <h3 style="color: #1e90ff">Редактирование пользователя</h3>
             <table  style="margin-top: 20px">
                 <thead align="center">
                 <tr>

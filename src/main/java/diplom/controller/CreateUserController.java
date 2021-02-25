@@ -86,6 +86,4 @@ public class CreateUserController {
 
         return "redirect:/createuser";
     }
-
-
 }

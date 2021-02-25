@@ -4,21 +4,18 @@
     <div>
         <form method="post">
             <input type="hidden" name="_csrf" value="${_csrf.token}">
-            <h3 style="color: #1e90ff">Добаление нового пользователя</h3>
-            <input type="text" name="username" placeholder="Логин">
-            <input type="text" name="LNAME" placeholder="Фамилия">
-            <input type="text" name="FNAME" placeholder="Имя">
-            <input type="password" name="password" placeholder="Пароль">
+            <h3 style="color: #1e90ff">Добаление нового клиента</h3>
+            <input type="text" name="fname" placeholder="Имя">
+            <input type="text" name="lname" placeholder="Фамилия">
+            <input type="text" name="phone" placeholder="Телефон">
             <input type="email" name="email" placeholder="example@gmail.com">
-            <input type="checkbox" name="active" placeholder="Активность">
-            <input type="text" name="roles" placeholder="Роль">
             <button class="btn btn-outline-primary" type="submit">Добавить</button>
         </form>
     </div>
 
-    <form method="post" action="/createuser/filter">
+    <form method="post" action="/client/filter">
         <input type="hidden" name="_csrf" value="${_csrf.token}">
-        <h3 style="color: #1e90ff">Поиск пользователей по логину</h3>
+        <h3 style="color: #1e90ff">Поиск клиентов по номеру телефона</h3>
         <input type="text" name="filter">
         <button class="btn btn-outline-primary" type="submit">Поиск</button>
     </form>
@@ -32,31 +29,27 @@
                     <tr>
                         <th scope="col">Имя</th>
                         <th scope="col">Фамилия</th>
-                        <th scope="col">Логин</th>
-                        <th scope="col">Пароль</th>
+                        <th scope="col">Телефон</th>
                         <th scope="col">Электронная почта</th>
-                        <th scope="col">Активность</th>
                         <th scope="col" width="100">Редактирование</th>
                         <th scope="col" width="100">Удаление</th>
                     </tr>
                     </thead>
                     <tbody>
-                    <#list users as user>
+                    <#list clients as client>
                         <tr>
-                            <td>${user.FNAME}</td>
-                            <td>${user.LNAME}</td>
-                            <td>${user.username}</td>
-                            <td>${user.password}</td>
-                            <td>${user.email}</td>
-                            <td>${user.active?c}</td>
+                            <td>${client.fname}</td>
+                            <td>${client.lname}</td>
+                            <td>${client.phone}</td>
+                            <td>${client.email}</td>
                             <td>
-                                <form method="get" action="/createuser/${user.id}">
+                                <form method="get" action="/client/${client.id}">
                                     <button type="submit" class="btn btn-secondary">Изменить</button>
                                 </form>
                             </td>
                             <td>
-                                <form method="post" action="/createuser/deleteUser">
-                                    <input type="hidden" value="${user.id}" name="userId">
+                                <form method="post" action="/client/deleteClient">
+                                    <input type="hidden" value="${client.id}" name="clientId">
                                     <input type="hidden" value="${_csrf.token}" name="_csrf">
                                     <button class="btn btn-danger" type="submit">Удалить</button>
                                 </form>
