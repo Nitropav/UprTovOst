@@ -8,27 +8,33 @@
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <#if isAdmin>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/createuser">Создать пользователя</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="/blockuser">Блокировка пользователей</a>
-                    </li>
-                </#if>
-                <#if name != "unknown" && !isAdmin>
-                    <div class="mr-3">
-                        <form method="get" action="/client">
-                            <input type="hidden" name="id_user" value="${id}">
-                            <button class="btn btn-info" type="submit"> Работа с клиентами </button>
-                        </form>
-                    </div>
-                </#if>
+        <ul class="navbar-nav mr-auto">
+            <#if isAdmin>
                 <li class="nav-item">
-                    <a class="nav-link" href="/about">О нас</a>
+                    <a class="nav-link" href="/createuser">Создать пользователя</a>
                 </li>
-            </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="/blockuser">Блокировка пользователей</a>
+                </li>
+            </#if>
+            <#if name != "unknown" && !isAdmin>
+                <div class="mr-3">
+                    <form method="get" action="/client">
+                        <input type="hidden" name="id_user" value="${id}">
+                        <button class="btn btn-info" type="submit"> Работа с клиентами</button>
+                    </form>
+                </div>
+                <div class="mr-3">
+                    <form method="get" action="/product">
+                        <input type="hidden" name="id_user" value="${id}">
+                        <button class="btn btn-info" type="submit"> Работа с продуктом</button>
+                    </form>
+                </div>
+            </#if>
+            <li class="nav-item">
+                <a class="nav-link" href="/about">О нас</a>
+            </li>
+        </ul>
         <#if name == "unknown">
             <a href="/login"> Войти </a>
         <#else>
