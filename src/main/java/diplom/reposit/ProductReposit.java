@@ -8,5 +8,6 @@ import java.util.List;
 
 @Repository
 public interface ProductReposit extends CrudRepository<Product, Integer> {
-    List<Product> findByModel(String model);
+    Product findByModel(String model);
+    List<Product> findByTyp(String typ);
 }

@@ -14,8 +14,8 @@ public class ProductService {
     private ProductReposit productReposit;
 
     @Transactional
-    public List<Product> loadProductByModel(String model) {
-        return productReposit.findByModel(model);
+    public List<Product> loadProductByTyp(String typ) {
+        return productReposit.findByTyp(typ);
     }
 
     @Transactional
@@ -23,6 +23,10 @@ public class ProductService {
         return productReposit.findAll();
     }
 
+    @Transactional
+    public Product loadModelProduct(String model) {
+        return productReposit.findByModel(model);
+    }
     @Transactional
     public Product saveProducts(Product product) {
         return productReposit.save(product);

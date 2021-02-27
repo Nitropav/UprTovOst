@@ -30,6 +30,12 @@
                         <button class="btn btn-info" type="submit"> Работа с продуктом</button>
                     </form>
                 </div>
+                <div class="mr-3">
+                    <form method="get" action="/production">
+                        <input type="hidden" name="id_user" value="${id}">
+                        <button class="btn btn-info" type="submit"> Работа с производством</button>
+                    </form>
+                </div>
             </#if>
             <li class="nav-item">
                 <a class="nav-link" href="/about">О нас</a>

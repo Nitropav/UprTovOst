@@ -42,7 +42,7 @@ public class ProductController {
     public String filterProduct(@RequestParam("filter") String filter, Map<String, Object> model) {
         Iterable<Product> products;
         if (filter != null && !filter.isEmpty()) {
-            products = productService.loadProductByModel(filter);
+            products = productService.loadProductByTyp(filter);
         } else {
             products = productService.loadAllProducts();
         }
