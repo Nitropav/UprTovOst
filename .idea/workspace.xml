@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7c70e46-85d5-4bbf-b41e-4288a8b37c9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/controller/ProductionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/reposit/ProductionReposit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/service/ProductionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/editProduction.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/production.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1ae8e51e-1b7f-4e98-acc9-0b68192b844c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1ae8e51e-1b7f-4e98-acc9-0b68192b844c.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/model/LabelRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/model/Production.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/reposit/ProductReposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/reposit/ProductReposit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/service/ProductService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -145,7 +138,7 @@
       <workItem from="1614186153615" duration="4684000" />
       <workItem from="1614251841545" duration="1349000" />
       <workItem from="1614254309014" duration="2761000" />
-      <workItem from="1614258321210" duration="20900000" />
+      <workItem from="1614258321210" duration="22923000" />
     </task>
     <task id="LOCAL-00001" summary="input">
       <created>1613639095660</created>
@@ -259,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614333790594</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="input">
+      <created>1614431840092</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1614431840092</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
