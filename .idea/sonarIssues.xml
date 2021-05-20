@@ -223,6 +223,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/templates/ddd.js">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/main/resources/templates/editClient.ftl">
           <value>
             <set />
@@ -244,6 +249,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/main/resources/templates/order.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftl">
           <value>
             <set />
           </value>

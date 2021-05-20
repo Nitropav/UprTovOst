@@ -28,4 +28,9 @@ public class ResidualService {
     public void deleteResidual(Residual residual) {
         residualReposit.delete(residual);
     }
+
+    @Transactional
+    public Residual saveResiduals(Residual residual) {
+        return residualReposit.save(residual);
+    }
 }

@@ -1311,192 +1311,198 @@
       <ColNames>id_order</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="333" parent="309" name="next_val">
+    <trigger id="333" parent="308" name="tr_order_residual">
+      <SourceTextLength>80</SourceTextLength>
+      <Definer>root@localhost</Definer>
+      <Turn>after-row</Turn>
+      <Events>I</Events>
+    </trigger>
+    <column id="334" parent="309" name="next_val">
       <Position>1</Position>
       <DataType>bigint(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="334" parent="310" name="idproduct">
+    <column id="335" parent="310" name="idproduct">
       <Position>1</Position>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="335" parent="310" name="idproduction">
+    <column id="336" parent="310" name="idproduction">
       <Position>2</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="336" parent="310" name="FKblg7yh7sdfy0x93dphks51ds7">
+    <index id="337" parent="310" name="FKblg7yh7sdfy0x93dphks51ds7">
       <ColNames>idproduction</ColNames>
       <Type>btree</Type>
     </index>
-    <key id="337" parent="310" name="PRIMARY">
+    <key id="338" parent="310" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>idproduct
 idproduction</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="338" parent="311" name="id">
+    <column id="339" parent="311" name="id">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="339" parent="311" name="kernel">
+    <column id="340" parent="311" name="kernel">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="340" parent="311" name="model">
+    <column id="341" parent="311" name="model">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="341" parent="311" name="price">
+    <column id="342" parent="311" name="price">
       <Position>4</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="342" parent="311" name="shell">
+    <column id="343" parent="311" name="shell">
       <Position>5</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="343" parent="311" name="typ">
+    <column id="344" parent="311" name="typ">
       <Position>6</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="344" parent="311" name="PRIMARY">
+    <key id="345" parent="311" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <trigger id="345" parent="311" name="tr_product_residual">
+    <trigger id="346" parent="311" name="tr_product_residual">
       <SourceTextLength>66</SourceTextLength>
       <Definer>root@localhost</Definer>
       <Turn>after-row</Turn>
       <Events>I</Events>
     </trigger>
-    <column id="346" parent="312" name="id">
+    <column id="347" parent="312" name="id">
       <Position>1</Position>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="347" parent="312" name="name">
+    <column id="348" parent="312" name="name">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="348" parent="312" name="datetime">
+    <column id="349" parent="312" name="datetime">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="349" parent="312" name="count_production">
+    <column id="350" parent="312" name="count_production">
       <Position>4</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="350" parent="312" name="product_id">
+    <column id="351" parent="312" name="product_id">
       <Position>5</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="351" parent="312" name="PRIMARY">
+    <key id="352" parent="312" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>product_id
 id</ColNames>
       <Primary>1</Primary>
     </key>
-    <trigger id="352" parent="312" name="tr_production_ost">
+    <trigger id="353" parent="312" name="tr_production_ost">
       <SourceTextLength>83</SourceTextLength>
       <Definer>root@localhost</Definer>
       <Turn>after-row</Turn>
       <Events>I</Events>
     </trigger>
-    <column id="353" parent="313" name="idProduct">
+    <column id="354" parent="313" name="idProduct">
       <Position>1</Position>
       <DataType>int(11)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="354" parent="313" name="count">
+    <column id="355" parent="313" name="count">
       <Position>2</Position>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="355" parent="313" name="name">
+    <column id="356" parent="313" name="name">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="356" parent="313" name="PRIMARY">
+    <key id="357" parent="313" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>idProduct</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="357" parent="314" name="id">
+    <column id="358" parent="314" name="id">
       <Position>1</Position>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="358" parent="314" name="fname">
+    <column id="359" parent="314" name="fname">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="359" parent="314" name="lname">
+    <column id="360" parent="314" name="lname">
       <Position>3</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="360" parent="314" name="active">
+    <column id="361" parent="314" name="active">
       <Position>4</Position>
       <DataType>bit(1)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="361" parent="314" name="email">
+    <column id="362" parent="314" name="email">
       <Position>5</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="362" parent="314" name="password">
+    <column id="363" parent="314" name="password">
       <Position>6</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="363" parent="314" name="username">
+    <column id="364" parent="314" name="username">
       <Position>7</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <key id="364" parent="314" name="PRIMARY">
+    <key id="365" parent="314" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="365" parent="315" name="user_id">
+    <column id="366" parent="315" name="user_id">
       <Position>1</Position>
       <DataType>bigint(20)|0s</DataType>
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="366" parent="315" name="roles">
+    <column id="367" parent="315" name="roles">
       <Position>2</Position>
       <DataType>varchar(255)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <index id="367" parent="315" name="FK859n2jvi8ivhui0rl0esws6o">
+    <index id="368" parent="315" name="FK859n2jvi8ivhui0rl0esws6o">
       <ColNames>user_id</ColNames>
       <Type>btree</Type>
     </index>

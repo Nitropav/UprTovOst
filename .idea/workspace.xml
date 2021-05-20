@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7c70e46-85d5-4bbf-b41e-4288a8b37c9b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userInfForBlock.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userInfForBlock.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1ae8e51e-1b7f-4e98-acc9-0b68192b844c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1ae8e51e-1b7f-4e98-acc9-0b68192b844c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/controller/BlockUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/controller/BlockUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/controller/ProductionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/controller/ProductionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/service/ResidualService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/service/ResidualService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/order.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/order.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -138,6 +147,7 @@
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -247,7 +257,8 @@
       <workItem from="1621493246338" duration="1127000" />
       <workItem from="1621496440874" duration="275000" />
       <workItem from="1621496762931" duration="540000" />
-      <workItem from="1621497343771" duration="11783000" />
+      <workItem from="1621497343771" duration="13371000" />
+      <workItem from="1621528618044" duration="12396000" />
     </task>
     <task id="LOCAL-00001" summary="input">
       <created>1613639095660</created>
@@ -396,7 +407,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621510099182</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="input">
+      <created>1621510319956</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1621510319956</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

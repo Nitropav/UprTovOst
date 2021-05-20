@@ -80,6 +80,7 @@ public class ProductionController {
 
         return "production";
     }
+
     @GetMapping("/{production}")
     public String editTovarooborot(@PathVariable Production production, Model model) {
         model.addAttribute("production", production);

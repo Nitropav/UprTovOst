@@ -52,17 +52,4 @@ public class BlockUserController {
         model.put("users", users);
         return "userInfForBlock";
     }
-
-//    @PostMapping
-//    public String block(@RequestParam("id") User user) {
-//        if (user.isActive()) {
-//            user.setActive(false);
-//        } else {
-//            user.setActive(true);
-//        }
-//
-//        createUserService.saveUsers(user);
-//
-//        return "userInfForBlock";
-//    }
 }

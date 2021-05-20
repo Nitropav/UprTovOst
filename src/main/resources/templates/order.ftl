@@ -2,7 +2,7 @@
 
 <@c.page "none">
     <div>
-        <form method="post">
+        <form method="post" action="/order/create">
             <input type="hidden" name="_csrf" value="${_csrf.token}">
             <h3 style="color: #1e90ff">Работа с заказами</h3>
             <input type="text" name="address" placeholder="Адрес">
@@ -19,6 +19,7 @@
                 </#list>
             </select>
             <button class="btn btn-outline-primary" type="submit">Добавить</button>
+
         </form>
     </div>
 
@@ -43,7 +44,7 @@
                         <th scope="col" bgcolor="#ff7f50">Фио клиента</th>
                         <th scope="col" bgcolor="#ff7f50">Продукт</th>
                         <th scope="col" bgcolor="#ff7f50">Статус</th>
-                        <th scope="col" bgcolor="#ff7f50" width="100">Редактирование</th>
+                        <th scope="col" bgcolor="#ff7f50" width="100">Изменение статуса</th>
                         <th scope="col" bgcolor="#ff7f50" width="100">Удаление</th>
                     </tr>
                     </thead>
@@ -58,8 +59,10 @@
                             <td>${order.name}</td>
                             <td>${order.status}</td>
                             <td>
-                                <form method="get" action="/order/${order.idOrder}">
-                                    <button type="submit" class="btn btn-secondary">Изменить</button>
+                                <form method="post" action="/order/done">
+                                    <input type="hidden" value="${order.idOrder}" name="ordersId">
+                                    <input type="hidden" value="${_csrf.token}" name="_csrf">
+                                    <button type="submit" class="btn btn-secondary">Выполнено | Выполняется</button>
                                 </form>
                             </td>
                             <td>
@@ -77,3 +80,6 @@
         </form>
     </div>
 </@c.page>
+<script>
+    showMessage(${flagResult})
+</script>
