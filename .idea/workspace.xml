@@ -2,73 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7c70e46-85d5-4bbf-b41e-4288a8b37c9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_0_M1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_14_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/controller/ResidualController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/model/Residual.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/reposit/OrderReposit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/reposit/ResidualReposit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/service/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/service/ResidualService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/order.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/residual.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1ae8e51e-1b7f-4e98-acc9-0b68192b844c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1ae8e51e-1b7f-4e98-acc9-0b68192b844c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarIssues.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/controller/ClientController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/controller/ProductionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/controller/ProductionController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/model/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/model/Production.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/model/Production.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/reposit/CreateUserReposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/reposit/CreateUserReposit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/reposit/ProductReposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/reposit/ProductReposit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/reposit/ProductionReposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/reposit/ProductionReposit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/reposit/UserReposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/reposit/UserReposit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/controller/BlockUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/controller/BlockUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/controller/ResidualController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/controller/ResidualController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/blockUser.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/blockUser.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/client.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/client.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/createuser.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/createuser.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/editClient.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/editClient.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/editProduct.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/editProduct.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/editUser.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/editUser.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/order.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/order.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/product.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/product.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/production.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/production.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/residual.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/residual.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userInfForBlock.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userInfForBlock.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/troshko.iml" beforeDir="false" afterPath="$PROJECT_DIR$/troshko.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -313,7 +262,7 @@
       <workItem from="1621493246338" duration="1127000" />
       <workItem from="1621496440874" duration="275000" />
       <workItem from="1621496762931" duration="540000" />
-      <workItem from="1621497343771" duration="9197000" />
+      <workItem from="1621497343771" duration="11522000" />
     </task>
     <task id="LOCAL-00001" summary="input">
       <created>1613639095660</created>
@@ -441,7 +390,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614585305256</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="input">
+      <created>1621507678627</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1621507678627</updated>
+    </task>
+    <task id="LOCAL-00020" summary="input">
+      <created>1621507724902</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1621507724902</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

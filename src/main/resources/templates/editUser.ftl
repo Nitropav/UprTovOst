@@ -7,11 +7,11 @@
             <table  style="margin-top: 20px">
                 <thead align="center">
                 <tr>
-                    <th scope="col">Имя</th>
-                    <th scope="col">Фамилия</th>
-                    <th scope="col">Логин</th>
-                    <th scope="col">Пароль</th>
-                    <th scope="col">Электронная почта</th>
+                    <th scope="col" bgcolor="#ff7f50">Имя</th>
+                    <th scope="col" bgcolor="#ff7f50">Фамилия</th>
+                    <th scope="col" bgcolor="#ff7f50">Логин</th>
+                    <th scope="col" bgcolor="#ff7f50">Пароль</th>
+                    <th scope="col" bgcolor="#ff7f50">Электронная почта</th>
                 </tr>
                 <tr align="center">
                     <th><input class="form-control" type="text" name="FNAME" value="${user.FNAME}"></th>

@@ -55,7 +55,7 @@
                     </form>
                 </div>
                 <div class="mr-3">
-                    <form method="get" action="/">
+                    <form method="get" action="/residual">
                         <input type="hidden" name="id_user" value="${id}">
                         <button class="btn btn-info" type="submit"> Управление остатком</button>
                     </form>

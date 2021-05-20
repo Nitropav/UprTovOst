@@ -30,14 +30,14 @@
                 <table class="table table-bordered">
                     <thead>
                     <tr>
-                        <th scope="col">Имя</th>
-                        <th scope="col">Фамилия</th>
-                        <th scope="col">Логин</th>
-                        <th scope="col">Пароль</th>
-                        <th scope="col">Электронная почта</th>
-                        <th scope="col">Активность</th>
-                        <th scope="col" width="100">Редактирование</th>
-                        <th scope="col" width="100">Удаление</th>
+                        <th scope="col" bgcolor="#ff7f50">Имя</th>
+                        <th scope="col" bgcolor="#ff7f50">Фамилия</th>
+                        <th scope="col" bgcolor="#ff7f50">Логин</th>
+                        <th scope="col" bgcolor="#ff7f50">Пароль</th>
+                        <th scope="col" bgcolor="#ff7f50">Электронная почта</th>
+                        <th scope="col" bgcolor="#ff7f50">Активность</th>
+                        <th scope="col" bgcolor="#ff7f50" width="100">Редактирование</th>
+                        <th scope="col" bgcolor="#ff7f50" width="100">Удаление</th>
                     </tr>
                     </thead>
                     <tbody>

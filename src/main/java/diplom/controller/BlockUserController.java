@@ -39,18 +39,30 @@ public class BlockUserController {
         return "userInfForBlock";
     }
 
-    @GetMapping("/{user}")
-    public String blockUser(@PathVariable User user, Model model) {
-        model.addAttribute("user", user);
-        return "blockUser";
-    }
-
-    @PostMapping("/block")
-    public String block(@RequestParam boolean active, @RequestParam("id") User user){
-        user.setActive(active);
-
+    @PostMapping("/bl")
+    public String blockUser(@RequestParam("userId") User user, Map<String, Object> model) {
+        if (user.isActive()) {
+            user.setActive(false);
+        } else {
+            user.setActive(true);
+        }
         createUserService.saveUsers(user);
 
-        return "redirect:/blockuser";
+        Iterable<User> users = createUserService.loadAllUsers();
+        model.put("users", users);
+        return "userInfForBlock";
     }
+
+//    @PostMapping
+//    public String block(@RequestParam("id") User user) {
+//        if (user.isActive()) {
+//            user.setActive(false);
+//        } else {
+//            user.setActive(true);
+//        }
+//
+//        createUserService.saveUsers(user);
+//
+//        return "userInfForBlock";
+//    }
 }

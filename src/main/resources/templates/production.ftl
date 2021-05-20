@@ -30,11 +30,10 @@
                 <table class="table table-bordered">
                     <thead>
                     <tr>
-                        <th scope="col">Дата</th>
-                        <th scope="col">Модель</th>
-                        <th scope="col">Количество</th>
-                        <th scope="col" width="100">Редактирование</th>
-                        <th scope="col" width="100">Удаление</th>
+                        <th scope="col" bgcolor="#ff7f50">Дата</th>
+                        <th scope="col" bgcolor="#ff7f50">Модель</th>
+                        <th scope="col" bgcolor="#ff7f50">Количество</th>
+                        <th scope="col" bgcolor="#ff7f50" width="100">Удаление</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -43,11 +42,6 @@
                             <td>${production.datetime}</td>
                             <td>${production.name}</td>
                             <td>${production.countProduction}</td>
-                            <td>
-                                <form method="get" action="/production/${production.id}">
-                                    <button type="submit" class="btn btn-secondary">Изменить</button>
-                                </form>
-                            </td>
                             <td>
                                 <form method="post" action="/production/deleteProduction">
                                     <input type="hidden" value="${production.id}" name="productionId">

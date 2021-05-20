@@ -15,13 +15,13 @@
                 <table class="table table-bordered">
                     <thead>
                     <tr>
-                        <th scope="col">Имя</th>
-                        <th scope="col">Фамилия</th>
-                        <th scope="col">Логин</th>
-                        <th scope="col">Пароль</th>
-                        <th scope="col">Электронная почта</th>
-                        <th scope="col">Активность</th>
-                        <th scope="col" width="150">Блокировка | Разблокировка</th>
+                        <th scope="col" bgcolor="#ff7f50">Имя</th>
+                        <th scope="col" bgcolor="#ff7f50">Фамилия</th>
+                        <th scope="col" bgcolor="#ff7f50">Логин</th>
+                        <th scope="col" bgcolor="#ff7f50">Пароль</th>
+                        <th scope="col" bgcolor="#ff7f50">Электронная почта</th>
+                        <th scope="col" bgcolor="#ff7f50">Активность</th>
+                        <th scope="col" bgcolor="#ff7f50" width="150">Блокировка | Разблокировка</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -34,7 +34,9 @@
                             <td>${user.email}</td>
                             <td>${user.active?c}</td>
                             <td>
-                                <form method="get" action="/blockuser/${user.id}">
+                                <form method="post" action="/blockuser/bl">
+                                    <input type="hidden" value="${user.id}" name="userId">
+                                    <input type="hidden" value="${_csrf.token}" name="_csrf">
                                     <button type="submit" class="btn btn-secondary">Блокировать | Разблокировать</button>
                                 </form>
                             </td>

@@ -7,11 +7,11 @@
             <table  style="margin-top: 20px">
                 <thead align="center">
                 <tr>
-                    <th scope="col">Модель</th>
-                    <th scope="col">Цена</th>
-                    <th scope="col">Тип</th>
-                    <th scope="col">Размер</th>
-                    <th scope="col">Тип стержня</th>
+                    <th scope="col" bgcolor="#ff7f50">Модель</th>
+                    <th scope="col" bgcolor="#ff7f50">Цена</th>
+                    <th scope="col" bgcolor="#ff7f50">Тип</th>
+                    <th scope="col" bgcolor="#ff7f50">Размер</th>
+                    <th scope="col" bgcolor="#ff7f50">Тип стержня</th>
                 </tr>
                 <tr align="center">
                     <th><input class="form-control" type="text" name="model" value="${product.model}"></th>

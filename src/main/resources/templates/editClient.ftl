@@ -7,9 +7,9 @@
             <table  style="margin-top: 20px">
                 <thead align="center">
                 <tr>
-                    <th scope="col">ФИО</th>
-                    <th scope="col">Телефон</th>
-                    <th scope="col">Электронная почта</th>
+                    <th scope="col" bgcolor="#ff7f50">ФИО</th>
+                    <th scope="col" bgcolor="#ff7f50">Телефон</th>
+                    <th scope="col" bgcolor="#ff7f50">Электронная почта</th>
                 </tr>
                 <tr align="center">
                     <th><input class="form-control" type="text" name="fio" value="${client.fio}"></th>

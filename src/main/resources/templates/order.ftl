@@ -36,15 +36,15 @@
                 <table class="table table-bordered">
                     <thead>
                     <tr>
-                        <th scope="col">Адрес</th>
-                        <th scope="col">Кол-во продукта</th>
-                        <th scope="col">Цена</th>
-                        <th scope="col">Тип доставки</th>
-                        <th scope="col">Фио клиента</th>
-                        <th scope="col">Продукт</th>
-                        <th scope="col">Статус</th>
-                        <th scope="col" width="100">Редактирование</th>
-                        <th scope="col" width="100">Удаление</th>
+                        <th scope="col" bgcolor="#ff7f50">Адрес</th>
+                        <th scope="col" bgcolor="#ff7f50">Кол-во продукта</th>
+                        <th scope="col" bgcolor="#ff7f50">Цена</th>
+                        <th scope="col" bgcolor="#ff7f50">Тип доставки</th>
+                        <th scope="col" bgcolor="#ff7f50">Фио клиента</th>
+                        <th scope="col" bgcolor="#ff7f50">Продукт</th>
+                        <th scope="col" bgcolor="#ff7f50">Статус</th>
+                        <th scope="col" bgcolor="#ff7f50" width="100">Редактирование</th>
+                        <th scope="col" bgcolor="#ff7f50" width="100">Удаление</th>
                     </tr>
                     </thead>
                     <tbody>

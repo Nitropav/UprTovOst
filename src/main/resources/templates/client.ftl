@@ -26,11 +26,11 @@
                 <table class="table table-bordered">
                     <thead>
                     <tr>
-                        <th scope="col">ФИО</th>
-                        <th scope="col">Телефон</th>
-                        <th scope="col">Электронная почта</th>
-                        <th scope="col" width="100">Редактирование</th>
-                        <th scope="col" width="100">Удаление</th>
+                        <th scope="col" bgcolor="#ff7f50">ФИО</th>
+                        <th scope="col" bgcolor="#ff7f50">Телефон</th>
+                        <th scope="col" bgcolor="#ff7f50">Электронная почта</th>
+                        <th scope="col" bgcolor="#ff7f50" width="100">Редактирование</th>
+                        <th scope="col" bgcolor="#ff7f50" width="100">Удаление</th>
                     </tr>
                     </thead>
                     <tbody>
