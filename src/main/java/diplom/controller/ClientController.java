@@ -26,9 +26,9 @@ public class ClientController {
     }
 
     @PostMapping
-    public String addClient(@RequestParam String fname, @RequestParam String lname, @RequestParam String phone,
-                          @RequestParam String email, Map<String, Object> model) {
-        Client client = new Client(fname, lname, phone, email);
+    public String addClient(@RequestParam String fio, @RequestParam String phone,
+                            @RequestParam String email, Map<String, Object> model) {
+        Client client = new Client(fio, phone, email);
 
         clientService.saveClients(client);
 
@@ -53,7 +53,7 @@ public class ClientController {
     }
 
     @PostMapping("deleteClient")
-    public String deleteEvent(@RequestParam("clientId") Client client, Map<String, Object> model){
+    public String deleteEvent(@RequestParam("clientId") Client client, Map<String, Object> model) {
         clientService.deleteClient(client);
 
         Iterable<Client> clients = clientService.loadAllClients();
@@ -69,11 +69,10 @@ public class ClientController {
     }
 
     @PostMapping("/show")
-    public String edit(@RequestParam String fname, @RequestParam String lname, @RequestParam String phone,
-                       @RequestParam String email, @RequestParam("id") Client client){
+    public String edit(@RequestParam String fio, @RequestParam String phone,
+                       @RequestParam String email, @RequestParam("id") Client client) {
 
-        client.setFname(fname);
-        client.setLname(lname);
+        client.setFio(fio);
         client.setPhone(phone);
         client.setEmail(email);
         clientService.saveClients(client);

@@ -1,7 +1,9 @@
 package diplom.controller;
 
 import diplom.model.Product;
+import diplom.model.Residual;
 import diplom.service.ProductService;
+import diplom.service.ResidualService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
@@ -14,8 +16,12 @@ import java.util.Map;
 @RequestMapping("/product")
 @PreAuthorize("hasAuthority('USER')")
 public class ProductController {
+
     @Autowired
     private ProductService productService;
+
+    @Autowired
+    private ResidualService residualService;
 
     @GetMapping
     public String ProductList(Map<String, Object> model) {
@@ -53,8 +59,17 @@ public class ProductController {
     }
 
     @PostMapping("deleteProduct")
-    public String deleteEvent(@RequestParam("productId") Product product, Map<String, Object> model){
+    public String deleteEvent(@RequestParam("productId") Product product, Map<String, Object> model) {
         productService.deleteProduct(product);
+
+        Iterable<Residual> residuals = residualService.loadAllResiduals();
+        Residual residual = new Residual();
+        for (Residual resultResidual : residuals) {
+            if (resultResidual.getName().equals(product.getModel())){
+                residual = resultResidual;
+            }
+        }
+        residualService.deleteResidual(residual);
 
         Iterable<Product> products = productService.loadAllProducts();
         model.put("products", products);
@@ -70,7 +85,7 @@ public class ProductController {
 
     @PostMapping("/show")
     public String edit(@RequestParam String model, @RequestParam int price, @RequestParam String typ,
-                       @RequestParam String shell, @RequestParam String kernel, @RequestParam("id") Product product){
+                       @RequestParam String shell, @RequestParam String kernel, @RequestParam("id") Product product) {
 
         product.setModel(model);
         product.setPrice(price);

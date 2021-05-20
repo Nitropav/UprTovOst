@@ -2,9 +2,73 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7c70e46-85d5-4bbf-b41e-4288a8b37c9b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/model/LabelRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/model/Production.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_0_M1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarIssues.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/controller/OrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/controller/ResidualController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/model/Residual.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/reposit/OrderReposit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/reposit/ResidualReposit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/diplom/service/ResidualService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/order.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/residual.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1ae8e51e-1b7f-4e98-acc9-0b68192b844c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1ae8e51e-1b7f-4e98-acc9-0b68192b844c.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/controller/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/controller/ProductionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/controller/ProductionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/model/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/model/Production.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/model/Production.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/reposit/CreateUserReposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/reposit/CreateUserReposit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/reposit/ProductReposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/reposit/ProductReposit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/reposit/ProductionReposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/reposit/ProductionReposit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/reposit/UserReposit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/reposit/UserReposit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/diplom/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/diplom/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/client.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/client.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/editClient.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/editClient.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/editProduct.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/editProduct.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/production.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/production.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/troshko.iml" beforeDir="false" afterPath="$PROJECT_DIR$/troshko.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +108,92 @@
         <item name="diplom@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="diplom: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="client: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="diplom@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="diplom: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="full_order: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="diplom@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="diplom: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="nameproduct_production: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="diplom@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="diplom: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="product: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="diplom@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="diplom: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="production: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="diplom@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="diplom: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="residual: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="diplom@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="diplom: schema" type="76f4a085:MysqlImplModel$Schema" />
         <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="diplom@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="diplom: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="user_role: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="rppba@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="rppba@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="rppba@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="rppba: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="rppba@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="rppba: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="filling: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="rppba@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="rppba: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="production: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="rppba@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="rppba: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="residual: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -80,13 +229,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/Шестой семестр/РППБА/projectRPPBA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
@@ -110,7 +260,7 @@
     <configuration name="TroshkoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="troshko" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="diplom.TroshkoApplication" />
-      <option name="VM_PARAMETERS" value="-Dserver.port=8085" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=8087" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,7 +288,32 @@
       <workItem from="1614186153615" duration="4684000" />
       <workItem from="1614251841545" duration="1349000" />
       <workItem from="1614254309014" duration="2761000" />
-      <workItem from="1614258321210" duration="22923000" />
+      <workItem from="1614258321210" duration="26828000" />
+      <workItem from="1614674217794" duration="30000" />
+      <workItem from="1615406164723" duration="1387000" />
+      <workItem from="1615415080069" duration="699000" />
+      <workItem from="1615415857445" duration="987000" />
+      <workItem from="1615595004695" duration="862000" />
+      <workItem from="1617284010772" duration="6000" />
+      <workItem from="1617619034538" duration="35000" />
+      <workItem from="1617951303940" duration="1221000" />
+      <workItem from="1618218197460" duration="4614000" />
+      <workItem from="1618299252374" duration="5326000" />
+      <workItem from="1618381528362" duration="34000" />
+      <workItem from="1618472194980" duration="1335000" />
+      <workItem from="1620070804929" duration="1986000" />
+      <workItem from="1620822647244" duration="59000" />
+      <workItem from="1621251120828" duration="821000" />
+      <workItem from="1621255089455" duration="5399000" />
+      <workItem from="1621266547709" duration="609000" />
+      <workItem from="1621276882113" duration="4018000" />
+      <workItem from="1621336182209" duration="3340000" />
+      <workItem from="1621413820943" duration="6705000" />
+      <workItem from="1621428272138" duration="4795000" />
+      <workItem from="1621493246338" duration="1127000" />
+      <workItem from="1621496440874" duration="275000" />
+      <workItem from="1621496762931" duration="540000" />
+      <workItem from="1621497343771" duration="9197000" />
     </task>
     <task id="LOCAL-00001" summary="input">
       <created>1613639095660</created>
@@ -259,7 +434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614431840092</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="input">
+      <created>1614585305256</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1614585305256</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,6 +463,37 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="input" />
     <option name="LAST_COMMIT_MESSAGE" value="input" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/diplom/controller/ClientController.java</url>
+          <line>66</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/diplom/controller/ClientController.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/diplom/controller/ClientController.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/diplom/controller/ClientController.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/diplom/controller/ClientController.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="simpleUML.UMLToolWindowPlugin">
     <General>

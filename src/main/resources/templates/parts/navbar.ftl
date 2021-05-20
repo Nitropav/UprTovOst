@@ -2,7 +2,7 @@
 <#import "login.ftl" as l>
 
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ccfff7;">
-    <a class="navbar-brand" href="/">Управление остатками</a>
+    <a class="navbar-brand" href="/">УО</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -36,22 +36,35 @@
                         <button class="btn btn-info" type="submit"> Работа с производством</button>
                     </form>
                 </div>
+                <div class="mr-3">
+                    <form method="get" action="/">
+                        <input type="hidden" name="id_user" value="${id}">
+                        <button class="btn btn-info" type="submit"> Сохранение отчета</button>
+                    </form>
+                </div>
+                <div class="mr-3">
+                    <form method="get" action="/">
+                        <input type="hidden" name="id_user" value="${id}">
+                        <button class="btn btn-info" type="submit"> Прогнозирование спроса</button>
+                    </form>
+                </div>
+                <div class="mr-3">
+                    <form method="get" action="/order">
+                        <input type="hidden" name="id_user" value="${id}">
+                        <button class="btn btn-info" type="submit"> Формирование заказа</button>
+                    </form>
+                </div>
+                <div class="mr-3">
+                    <form method="get" action="/residual">
+                        <input type="hidden" name="id_user" value="${id}">
+                        <button class="btn btn-info" type="submit"> Управление остатком</button>
+                    </form>
+                </div>
             </#if>
-            <li class="nav-item">
-                <a class="nav-link" href="/about">О нас</a>
-            </li>
         </ul>
         <#if name == "unknown">
             <a href="/login"> Войти </a>
         <#else>
-            <#if !isAdmin>
-                <div class="nav-item mr-4">
-                    <form method="get" action="/carlist">
-                        <input type="hidden" name="id" value="${id}">
-                        <button class="btn btn-primary" type="submit"> Мои машины</button>
-                    </form>
-                </div>
-            </#if>
             <div class="mr-4">${name}</div>
             <@l.logout />
         </#if>

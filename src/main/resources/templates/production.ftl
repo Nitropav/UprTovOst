@@ -6,14 +6,12 @@
             <input type="hidden" name="_csrf" value="${_csrf.token}">
             <h3 style="color: #1e90ff">Добаление данных о производстве</h3>
             <input type="date" name="datetime" placeholder="Дата">
-            <div class="container-fluid">
                 <select name="choiceProduct" class="selectpicker" data-style="btn-info">
                     <#list products as product>
                         <option value="${product.model}">${product.model}</option>
                     </#list>
                 </select>
-            </div>
-            <input type="number" name="count" placeholder="Количество">
+            <input type="number" name="countProduction" placeholder="Количество">
             <button class="btn btn-outline-primary" type="submit">Добавить</button>
         </form>
     </div>
@@ -44,7 +42,7 @@
                         <tr>
                             <td>${production.datetime}</td>
                             <td>${production.name}</td>
-                            <td>${production.count}</td>
+                            <td>${production.countProduction}</td>
                             <td>
                                 <form method="get" action="/production/${production.id}">
                                     <button type="submit" class="btn btn-secondary">Изменить</button>

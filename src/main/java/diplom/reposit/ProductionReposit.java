@@ -9,5 +9,6 @@ import java.util.List;
 @Repository
 public interface ProductionReposit extends CrudRepository<Production, Integer> {
     List<Production> findByDatetime(String datetime);
+
     List<Production> findById(int product);
 }

@@ -2,7 +2,7 @@
 
 <@c.page "none">
     <div>
-        <form method="post" action="/client/show">
+        <form method="post" action="/product/show">
             <h3 style="color: #1e90ff">Редактирование информации о продукте</h3>
             <table  style="margin-top: 20px">
                 <thead align="center">

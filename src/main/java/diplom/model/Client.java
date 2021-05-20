@@ -9,17 +9,15 @@ public class Client {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
 
-    private String fname;
-    private String lname;
+    private String fio;
     private String phone;
     private String email;
 
     public Client() {
     }
 
-    public Client(String fname, String lname, String phone, String email) {
-        this.fname = fname;
-        this.lname = lname;
+    public Client(String fio, String phone, String email) {
+        this.fio = fio;
         this.phone = phone;
         this.email = email;
     }
@@ -32,20 +30,12 @@ public class Client {
         this.id = id;
     }
 
-    public String getFname() {
-        return fname;
+    public String getFio() {
+        return fio;
     }
 
-    public void setFname(String fname) {
-        this.fname = fname;
-    }
-
-    public String getLname() {
-        return lname;
-    }
-
-    public void setLname(String lname) {
-        this.lname = lname;
+    public void setFio(String fio) {
+        this.fio = fio;
     }
 
     public String getPhone() {

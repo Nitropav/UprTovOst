@@ -5,8 +5,7 @@
         <form method="post">
             <input type="hidden" name="_csrf" value="${_csrf.token}">
             <h3 style="color: #1e90ff">Добаление нового клиента</h3>
-            <input type="text" name="fname" placeholder="Имя">
-            <input type="text" name="lname" placeholder="Фамилия">
+            <input type="text" name="fio" placeholder="ФИО">
             <input type="text" name="phone" placeholder="Телефон">
             <input type="email" name="email" placeholder="example@gmail.com">
             <button class="btn btn-outline-primary" type="submit">Добавить</button>
@@ -27,8 +26,7 @@
                 <table class="table table-bordered">
                     <thead>
                     <tr>
-                        <th scope="col">Имя</th>
-                        <th scope="col">Фамилия</th>
+                        <th scope="col">ФИО</th>
                         <th scope="col">Телефон</th>
                         <th scope="col">Электронная почта</th>
                         <th scope="col" width="100">Редактирование</th>
@@ -38,8 +36,7 @@
                     <tbody>
                     <#list clients as client>
                         <tr>
-                            <td>${client.fname}</td>
-                            <td>${client.lname}</td>
+                            <td>${client.fio}</td>
                             <td>${client.phone}</td>
                             <td>${client.email}</td>
                             <td>

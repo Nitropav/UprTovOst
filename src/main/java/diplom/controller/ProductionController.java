@@ -35,23 +35,23 @@ public class ProductionController {
 
     @PostMapping
     public String addProduction(@RequestParam String datetime, @RequestParam("choiceProduct") String choice,
-                                @RequestParam int count, Map<String, Object> model) {
+                                @RequestParam int countProduction, Map<String, Object> model) {
         Iterable<Product> products = productService.loadAllProducts();
         Product product = new Product();
-        for (Product p: products) {
-            if (p.getModel().equals(choice)){
-                product = p;
+        for (Product resultProduct: products) {
+            if (resultProduct.getModel().equals(choice)){
+                product = resultProduct;
             }
         }
         model.put("products", products);
-        Production production = new Production(datetime, choice, count);
+        Production production = new Production(datetime, choice, countProduction, product.getId());
 
         productionService.saveProductions(production);
 
         Iterable<Production> productions = productionService.loadAllProductions();
         model.put("productions", productions);
         Product currProduct = productService.loadModelProduct(choice);
-        productionService.addProduct(production , currProduct);
+        productionService.addProduct(production, currProduct);
 
         return "production";
     }
@@ -92,7 +92,7 @@ public class ProductionController {
 
         production.setDatetime(datetime);
         production.setName(name);
-        production.setCount(count);
+        production.setCountProduction(count);
         productionService.saveProductions(production);
 
         return "redirect:/production";

@@ -13,7 +13,8 @@ public class Production {
 
     private String datetime;
     private String name;
-    private int count;
+    private int countProduction;
+    private int productId;
 
     @ManyToMany
     @JoinTable(
@@ -26,10 +27,19 @@ public class Production {
     public Production() {
     }
 
-    public Production(String datetime, String name, int count) {
+    public Production(String datetime, String name, int countProduction, int productId) {
         this.datetime = datetime;
         this.name = name;
-        this.count = count;
+        this.countProduction = countProduction;
+        this.productId = productId;
+    }
+
+    public int getProductId() {
+        return productId;
+    }
+
+    public void setProductId(int productId) {
+        this.productId = productId;
     }
 
     public int getId() {
@@ -56,12 +66,12 @@ public class Production {
         this.name = name;
     }
 
-    public int getCount() {
-        return count;
+    public int getCountProduction() {
+        return countProduction;
     }
 
-    public void setCount(int count) {
-        this.count = count;
+    public void setCountProduction(int countProduction) {
+        this.countProduction = countProduction;
     }
 
     public Set<Product> getProducts() {
