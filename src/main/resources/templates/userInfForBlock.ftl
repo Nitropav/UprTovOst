@@ -32,7 +32,11 @@
                             <td>${user.username}</td>
                             <td>${user.password}</td>
                             <td>${user.email}</td>
-                            <td>${user.active?c}</td>
+                            <#if user.active == true>
+                                <td>Активен</td>
+                            <#else>
+                                <td>Не активен</td>
+                            </#if>
                             <td>
                                 <form method="post" action="/blockuser/bl">
                                     <input type="hidden" value="${user.id}" name="userId">
