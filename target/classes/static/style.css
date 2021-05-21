@@ -2,7 +2,7 @@ html, body{
     height: 100%;
     max-height: 100%;
     max-width:100%;
-    background-color: whitesmoke;
+    background-color: white;
     /*background-image: url("img/main.jpg");*/
     font: 13px/1.5 Verdana, Tahoma, Arial, sans-serif;
 }
@@ -16,7 +16,9 @@ html, body{
     border: none;
     background-color: whitesmoke;
 }
-
+.mt-5{
+    background-color: white;
+}
 .smoke{
     padding-right: 50%;
 }
