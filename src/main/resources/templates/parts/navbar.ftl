@@ -37,7 +37,7 @@
                     </form>
                 </div>
                 <div class="mr-3">
-                    <form method="get" action="/">
+                    <form method="get" action="/residual/r/export">
                         <input type="hidden" name="id_user" value="${id}">
                         <button class="btn btn-info" type="submit"> Сохранение отчета</button>
                     </form>

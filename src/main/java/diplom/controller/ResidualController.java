@@ -1,6 +1,9 @@
 package diplom.controller;
 
+import diplom.configuration.ExcelExporter;
+import diplom.model.Product;
 import diplom.model.Residual;
+import diplom.service.ProductService;
 import diplom.service.ResidualService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
@@ -10,6 +13,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+import java.util.List;
 import java.util.Map;
 
 @Controller
@@ -19,6 +25,9 @@ public class ResidualController {
 
     @Autowired
     private ResidualService residualService;
+
+    @Autowired
+    private ProductService productService;
 
     @GetMapping
     public String residualList(Map<String, Object> model) {
@@ -40,5 +49,21 @@ public class ResidualController {
         model.put("residuals", residuals);
 
         return "residual";
+    }
+
+    @GetMapping("/r/export")
+    public void exportToExcel(HttpServletResponse response) throws IOException {
+        response.setContentType("application/octet-stream");
+
+        String headerkey = "Content-Disposition";
+        String headerValue = "attachement; filename=residual.xlsx";
+
+        response.setHeader(headerkey, headerValue);
+
+        List<Residual> residuals = (List<Residual>) residualService.loadAllResiduals();
+        List<Product> products = (List<Product>) productService.loadAllProducts();
+
+        ExcelExporter excelExporter = new ExcelExporter(residuals, products);
+        excelExporter.export(response);
     }
 }
