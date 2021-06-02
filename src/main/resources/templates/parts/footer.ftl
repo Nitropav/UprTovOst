@@ -5,14 +5,15 @@
 <footer class="section footer-classic context-dark bg-image" style="background: #2d3246;">
     <div class="container">
         <div class="row row-30">
-            <div class="col-md-4 col-xl-5">
-                <div class="pr-xl-4">
+            <div class="col-md-4 col-xl-5" style="margin:auto ">
+                <div class="pr-xl-4" >
                     <br>
                     <br>
-                    <p>Дипломный проект - управление товарными остатками.</p>
+                    <p>Дипломный проект - программное средство управления товарными остатками торговой компании.</p>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4" style="margin:auto ">
+                <div class="footer-info">
                 <br>
                 <br>
                 <h5>Контакты</h5>
@@ -29,12 +30,15 @@
                     <dd><a href="tel:#">80333446333</a>
                     </dd>
                 </dl>
+                </div>
             </div>
+            <div class="social-container-mini">
             <div class="row no-gutters social-container">
                 <div class="col"><a class="social-inner" href="https://www.facebook.com/"><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a></div>
                 <div class="col"><a class="social-inner" href="https://www.instagram.com/"><span class="icon mdi mdi-instagram"></span><span>instagram</span></a></div>
                 <div class="col"><a class="social-inner" href="https://twitter.com/"><span class="icon mdi mdi-twitter"></span><span>twitter</span></a></div>
                 <div class="col"><a class="social-inner" href="https://www.google.com/"><span class="icon mdi mdi-youtube-play"></span><span>google</span></a></div>
+            </div>
             </div>
         </div>
     </div>

@@ -93,6 +93,46 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../dima/src/main/java/otchetnost/controller/CreateUserController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../dima/src/main/java/otchetnost/controller/OtchetController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../dima/src/main/java/otchetnost/controller/OtchetnostFinal.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../dima/src/main/java/otchetnost/controller/TovarooborotController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../dima/src/main/java/otchetnost/repository/TovarooborotRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../dima/src/main/java/otchetnost/service/TovarooborotService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../dima/src/main/resources/templates/createotchet.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../dima/src/main/resources/templates/parts/navbar.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/pom.xml">
           <value>
             <set />
@@ -374,6 +414,21 @@
           </value>
         </entry>
         <entry key="$USER_HOME$/IdeaProjects/sto/src/main/resources/templates/service.ftl">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/lesson/dima/src/main/java/otchetnost/controller/TovarooborotController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/lesson/dima/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="D:/lesson/dima/src/main/resources/templates/parts/navbar.ftl">
           <value>
             <set />
           </value>

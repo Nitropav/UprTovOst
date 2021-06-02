@@ -17,6 +17,8 @@ import java.util.Set;
 @PreAuthorize("hasAuthority('ADMIN')")
 public class CreateUserController {
 
+    private int flag = 2;
+
     @Autowired
     private CreateUserService createUserService;
 
@@ -30,11 +32,23 @@ public class CreateUserController {
 
     @PostMapping
     public String addUser(@RequestParam String username, @RequestParam String LNAME, @RequestParam String FNAME,
-                          @RequestParam String password, @RequestParam String email, @RequestParam boolean active,
-                          @RequestParam Set<Role> roles, Map<String, Object> model) {
-        User user = new User(username, LNAME, FNAME, password, email, active, roles);
+                          @RequestParam String password, @RequestParam String email,
+                          @RequestParam Set<Role> roles, Map<String, Object> model, Model modelUI) {
+        User user = new User(username, LNAME, FNAME, password, email, true, roles);
+        if (username.equals("") || LNAME.equals("") || FNAME.equals("") || password.equals("") ||
+                email.equals("") || roles.isEmpty()) {
+            flag = 1;
+        } else {
+            flag = 2;
+        }
 
-        createUserService.saveUsers(user);
+        if (flag == 2) {
+            createUserService.saveUsers(user);
+        } else {
+            System.out.println("Не все поля заполнены!");
+        }
+
+        modelUI.addAttribute("flagResult", String.valueOf(flag));
 
         Iterable<User> users = createUserService.loadAllUsers();
         model.put("users", users);
@@ -57,7 +71,7 @@ public class CreateUserController {
     }
 
     @PostMapping("deleteUser")
-    public String deleteEvent(@RequestParam("userId") User user, Map<String, Object> model){
+    public String deleteEvent(@RequestParam("userId") User user, Map<String, Object> model) {
         createUserService.deleteUser(user);
 
         Iterable<User> users = createUserService.loadAllUsers();
@@ -75,7 +89,7 @@ public class CreateUserController {
     @PostMapping("/show")
     public String edit(@RequestParam String FNAME, @RequestParam String LNAME, @RequestParam String username,
                        @RequestParam String password, @RequestParam String email,
-                       @RequestParam("id") User user){
+                       @RequestParam("id") User user) {
 
         user.setFNAME(FNAME);
         user.setLNAME(LNAME);

@@ -5,7 +5,7 @@
 
     <div class="row">
 
-        <div class="col-lg-3 new-col-lg-3">
+        <div class="col-lg-3 new-col-lg-3" style="background-color: #affff7">
             <div class="product-item">
                 <div>
                     <img src="/static/diagnostic.jpg" class="img-resp">
@@ -19,7 +19,7 @@
             </div>
         </div>
 
-        <div class="col-lg-3 new-col-lg-3">
+        <div class="col-lg-3 new-col-lg-3" style="background-color: #affff7">
             <div class="product-item">
                 <div>
                     <img src="/static/repair.jpg" class="img-resp">
@@ -33,7 +33,7 @@
             </div>
         </div>
 
-        <div class="col-lg-3 new-col-lg-3">
+        <div class="col-lg-3 new-col-lg-3" style="background-color: #affff7">
             <div class="product-item">
                 <div>
                     <img src="/static/look.jpg" class="img-resp">
@@ -47,7 +47,7 @@
             </div>
         </div>
 
-        <div class="col-lg-3 new-col-lg-3">
+        <div class="col-lg-3 new-col-lg-3" style="background-color: #affff7">
             <div class="product-item">
                 <div>
                     <img src="/static/clear.jpg"img-resp">
