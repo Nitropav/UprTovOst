@@ -20,6 +20,34 @@
                 }
             }
         </script>
+        <script>
+            function validUser(flag) {
+                if (flag === 1){
+                    alert('Не все поля заполнены!')
+                }
+            }
+        </script>
+        <script>
+            function validClient(flag) {
+                if (flag === 1){
+                    alert('Не все поля заполнены!')
+                }
+            }
+        </script>
+        <script>
+            function validProduct(flag) {
+                if (flag === 1){
+                    alert('Не все поля заполнены!')
+                }
+            }
+        </script>
+        <script>
+            function validProduction(flag) {
+                if (flag === 1){
+                    alert('Не все поля заполнены!')
+                }
+            }
+        </script>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
               integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
@@ -27,14 +55,14 @@
         <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
         <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" rel="stylesheet" type="text/css"/>
     </head>
-    <body style="background-color: white;">
+    <body style="background-color:#affff7;">
     <#include "navbar.ftl">
     <#if path != "none">
         <div class="top-container">
             <img src="${path}" class="img-responsive">
         </div>
     </#if>
-    <div class="container mt-5">
+    <div class="container mt-5" style="background-color: #affff7">
         <#nested>
     </div>
     <#include "footer.ftl">

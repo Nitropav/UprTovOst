@@ -65,3 +65,6 @@
         </form>
     </div>
 </@c.page>
+<script>
+    validProduct(${flagResult})
+</script>

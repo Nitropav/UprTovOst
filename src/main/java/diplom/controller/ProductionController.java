@@ -17,6 +17,8 @@ import java.util.Map;
 @PreAuthorize("hasAuthority('USER')")
 public class ProductionController {
 
+    private int flag = 2;
+
     @Autowired
     private ProductService productService;
 
@@ -35,18 +37,30 @@ public class ProductionController {
 
     @PostMapping
     public String addProduction(@RequestParam String datetime, @RequestParam("choiceProduct") String choice,
-                                @RequestParam int countProduction, Map<String, Object> model) {
+                                @RequestParam int countProduction, Map<String, Object> model, Model modelUI) {
         Iterable<Product> products = productService.loadAllProducts();
         Product product = new Product();
-        for (Product resultProduct: products) {
-            if (resultProduct.getModel().equals(choice)){
+        for (Product resultProduct : products) {
+            if (resultProduct.getModel().equals(choice)) {
                 product = resultProduct;
             }
         }
         model.put("products", products);
         Production production = new Production(datetime, choice, countProduction, product.getId());
 
-        productionService.saveProductions(production);
+        if (datetime.equals("") || choice.equals("")) {
+            flag = 1;
+        } else {
+            flag = 2;
+        }
+
+        if (flag == 2) {
+            productionService.saveProductions(production);
+        } else {
+            System.out.println("Поля не все!");
+        }
+
+        modelUI.addAttribute("flagResult", String.valueOf(flag));
 
         Iterable<Production> productions = productionService.loadAllProductions();
         model.put("productions", productions);
@@ -71,7 +85,7 @@ public class ProductionController {
     }
 
     @PostMapping("deleteProduction")
-    public String deleteEvent(@RequestParam("productionId") Production production, Map<String, Object> model){
+    public String deleteEvent(@RequestParam("productionId") Production production, Map<String, Object> model) {
         Iterable<Product> products = productService.loadAllProducts();
         model.put("products", products);
         productionService.deleteProductions(production);
@@ -89,7 +103,7 @@ public class ProductionController {
 
     @PostMapping("/show")
     public String edit(@RequestParam String datetime, @RequestParam String name, @RequestParam int count,
-                       @RequestParam("idproduction") Production production){
+                       @RequestParam("idproduction") Production production) {
 
         production.setDatetime(datetime);
         production.setName(name);

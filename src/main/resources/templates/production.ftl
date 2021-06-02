@@ -57,3 +57,6 @@
         </form>
     </div>
 </@c.page>
+<script>
+    validProduction(${flagResult})
+</script>

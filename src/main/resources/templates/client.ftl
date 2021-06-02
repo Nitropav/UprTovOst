@@ -59,3 +59,6 @@
         </form>
     </div>
 </@c.page>
+<script>
+    validClient(${flagResult})
+</script>

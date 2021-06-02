@@ -14,6 +14,9 @@ import java.util.Map;
 @RequestMapping("/client")
 @PreAuthorize("hasAuthority('USER')")
 public class ClientController {
+
+    private int flag = 2;
+
     @Autowired
     private ClientService clientService;
 
@@ -27,10 +30,22 @@ public class ClientController {
 
     @PostMapping
     public String addClient(@RequestParam String fio, @RequestParam String phone,
-                            @RequestParam String email, Map<String, Object> model) {
+                            @RequestParam String email, Map<String, Object> model, Model modelUI) {
         Client client = new Client(fio, phone, email);
 
-        clientService.saveClients(client);
+        if (fio.equals("") || phone.equals("") || email.equals("")) {
+            flag = 1;
+        } else {
+            flag = 2;
+        }
+
+        if (flag == 2) {
+            clientService.saveClients(client);
+        } else {
+            System.out.println("Не все поля!");
+        }
+
+        modelUI.addAttribute("flagResult", String.valueOf(flag));
 
         Iterable<Client> clients = clientService.loadAllClients();
         model.put("clients", clients);

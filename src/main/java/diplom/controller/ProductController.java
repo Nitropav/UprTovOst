@@ -17,6 +17,8 @@ import java.util.Map;
 @PreAuthorize("hasAuthority('USER')")
 public class ProductController {
 
+    private int flag = 2;
+
     @Autowired
     private ProductService productService;
 
@@ -33,10 +35,22 @@ public class ProductController {
 
     @PostMapping
     public String addProduct(@RequestParam String model, @RequestParam int price, @RequestParam String typ,
-                             @RequestParam String shell, @RequestParam String kernel, Map<String, Object> modelMap) {
+                             @RequestParam String shell, @RequestParam String kernel, Map<String, Object> modelMap, Model modelUI) {
         Product product = new Product(model, price, typ, shell, kernel);
 
-        productService.saveProducts(product);
+        if (model.equals("") || typ.equals("") || shell.equals("") || kernel.equals("")) {
+            flag = 1;
+        } else {
+            flag = 2;
+        }
+
+        if (flag == 2) {
+            productService.saveProducts(product);
+        } else {
+            System.out.println("Поля");
+        }
+
+        modelUI.addAttribute("flagResult", String.valueOf(flag));
 
         Iterable<Product> products = productService.loadAllProducts();
         modelMap.put("products", products);
@@ -65,7 +79,7 @@ public class ProductController {
         Iterable<Residual> residuals = residualService.loadAllResiduals();
         Residual residual = new Residual();
         for (Residual resultResidual : residuals) {
-            if (resultResidual.getName().equals(product.getModel())){
+            if (resultResidual.getName().equals(product.getModel())) {
                 residual = resultResidual;
             }
         }
